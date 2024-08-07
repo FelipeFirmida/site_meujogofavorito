@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Dark and Darker';
+    src: url("./Solmoe\ KimDaeGeonOTF\ Medium.otf") format('opentype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dark and Darker", sans-serif;
+    font-weight: normal;
+}
+
+header,
+footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 16px 0;
+}
+
+header li {
+    display: inline;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav li a:hover {
+    color: gold;
+}
+
+.container {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#dnd-img {
+    width: 640px;
+    height: 100%;
+    border-radius: 13px;
+    margin-right: 32px;
+}
+
+#about-text {
+    background-color: black;
+    padding: 14px;
+    border-radius: 16px;
+}
+
+#dnd-logo {
+    width: 240px;
+    height: 100%;
+}
+
+#dnd-logo:hover {
+    transform: scale(1.1);
+}
+
+section {
+    padding: 24px 0;
+    color:  aliceblue;
+    background-color: rgb(29, 27, 27);
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+#about h3 {
+    margin: 32px 0 16px 
+}
+
+#acess-site {
+    text-align: center;
+}
+
+#classes-info {
+    background-color: black;
+    padding: 14px;
+    border-radius: 16px;
+}
+
+#classes ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#classes img {
+    border-radius: 13px;
+    margin: 0 16px 8px;
+}
+
+#classes img:hover {
+    transform: scale(1.1);
+}
+
+#classes ul li {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#classes h3 {
+    margin-bottom: 16px;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+}
+
+#contact-info{
+    padding: 14px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+form button {
+    background-color: rgb(65, 60, 59);
+    font-family: "Dark and Darker", sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(25, 26, 24);
+    color: gold;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
